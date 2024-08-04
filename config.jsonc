@@ -3,8 +3,8 @@
   "logo": {
     "type": "kitty-direct",
     "source": "~/.config/fastfetch/asthetic-widowmaker.png",
-    "width": 49,
-    "height": 21 
+    "width": 54   ,
+    "height": 24 
   },
   "display": {
     "separator": "   ",
@@ -26,6 +26,11 @@
 //system :
 
     "break",
+    {
+      "type": "custom",
+      "format": "\u001b[90m╭──────────────────────SYSTEM──────────────────────╮"
+      //'\u001b[90m' is for color
+    },
     {
       "type": "os",
       "key": "╭─  OS",
@@ -64,7 +69,11 @@
     "break",
 
 //themes :
-
+    {
+      "type": "custom",
+      "format": "\u001b[90m╭──────────────  ───────────────THEMES──────────────────────────────╮"
+      //'\u001b[90m' is for color
+    },
     {
       "type": "theme",
       "key": "╭─󰔎  THEMES",
@@ -93,7 +102,11 @@
     "break",
 
 //resources :
-
+    {
+      "type": "custom",
+      "format": "\u001b[90m╭────────────────────────────────RESOURCES─────────────────────────────────╮"
+      //'\u001b[90m' is for color
+    },
     {
       "type": "cpu",
       "key": "╭─  CPU",
